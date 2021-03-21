@@ -2,6 +2,8 @@
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'booking_trick/version'
+require 'booking_trick/user'
+require 'booking_trick/room'
 
 Gem::Specification.new do |spec|
   spec.name          = 'booking_trick'

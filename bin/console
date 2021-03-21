@@ -17,7 +17,7 @@ def reload!(print = true)
   # Directories within the project that should be reloaded.
   reload_dirs = %w{lib}
   # Loop through and reload every file in all relevant project directories.
-  Object.send(:remove_const, :"QuickExam")
+  Object.send(:remove_const, :"BookingTrick")
   reload_dirs.each do |dir|
     Dir.glob("#{root_dir}/#{dir}/**/*.rb").each { |f| load(f) }
   end

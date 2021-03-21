@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    booking_trick (0.1.0)
+    booking_trick (0.1.1)
 
 GEM
   remote: https://rubygems.org/
